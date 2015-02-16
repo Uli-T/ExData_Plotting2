@@ -17,7 +17,7 @@ if(!file.exists("summarySCC_PM25.rds")) {
   message("Data decompressed.")
 }
 
-## Read data into memory, format dates & select data
+## Read data into memory
 message("Reading data ...")
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
