@@ -2,6 +2,11 @@
 ## https://class.coursera.org/exdata-011/human_grading/view/courses/973505/assessments/4/submissions
 
 ## Load required packages
+if (!require("dplyr")) {
+  install.packages("dplyr")
+}
+require("dplyr")
+
 if (!require("ggplot2")) {
   install.packages("ggplot2")
 }

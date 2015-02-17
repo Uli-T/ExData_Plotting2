@@ -1,6 +1,12 @@
 ## Exploratory Data Analysis: Course Project 2
 ## https://class.coursera.org/exdata-011/human_grading/view/courses/973505/assessments/4/submissions
 
+## Load required packages
+if (!require("dplyr")) {
+  install.packages("dplyr")
+}
+require("dplyr")
+
 ## Download and decompress data & record date of download
 fileURL <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"
 if(!file.exists("summarySCC_PM25.rds")) {
